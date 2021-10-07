@@ -1,0 +1,53 @@
+!-- Xft settings -- ! you dont even need this probably 
+
+Xft.antialias:	1
+Xft.hinting:	1
+Xft.autohint:	0
+Xft.hintstyle:	hintslight
+Xft.rgba:	rgb
+Xft.lcdfilter:	lcddefault
+
+! transparency ( 0.1 to 0.9 values)
+st.alpha: 0.9
+
+! inner padding
+st.borderpx:          0
+st.font:              Hack:style:medium:pixelsize=14
+
+!! Colors
+
+!! Dracula  palette
+*.foreground: #EBDBB2 
+*.background: #282828
+
+!! black + grey
+*.color0:     #282828
+*.color8:     #928374
+
+!! dark red + red
+*.color1:     #CC241D
+*.color9:     #FB4934
+
+!! green
+*.color2:     #98971A
+*.color10:    #B8BB26
+
+!! yellow
+*.color3:     #D79921
+*.color11:    #FABD2F
+
+!! purple
+*.color4:     #458588
+*.color12:    #83A598
+
+!! pink
+*.color5:     #B16286
+*.color13:    #D3869B
+
+!! cyan
+*.color6:     #689D6A
+*.color14:    #8EC07C
+
+!! white
+*.color7:     #A89984
+*.color15:    #EBDBB2

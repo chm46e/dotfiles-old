@@ -1,0 +1,20 @@
+NB: These configs can result in a kernel panic in your machine, please look over them first.
+
+.config.master:
+    -> Kernel config that I mainly use
+    -> Includes as little support as possible
+
+.config.maxsup:
+    -> Kernel config that tries to include as much support as possible 
+    (not quite complete)
+
+.config.batopt:
+    -> Kernel config that includes a couple of battery friendly options
+
+To use:
+    > cp <config> /path/to/kernel
+    > make menuconfig
+    $$ change general->build id salt to the kernel version
+    $$ at min look inside: file systems, processor, general
+    > sudo su
+    > make -j<core count> ; make -j<core count> modules_install ; make -j<core count> install

@@ -1,0 +1,150 @@
+# Color palette: https://coolors.co/26547c-ef476f-ffd166-06d6a0-fffcf9
+
+[username]
+format = " [Mr.Wolfy](#06d6a0) "
+style_user = "bold red"
+style_root = "bold red"
+show_always = true
+
+[hostname]
+format = "[in ](#26547c)"
+style = "bold dimmed red"
+trim_at = "-"
+ssh_only = false
+disabled = false
+
+[directory]
+style = "#ef476f"
+truncation_length = 0
+truncate_to_repo = true
+truncation_symbol = ""
+
+[cmd_duration]
+min_time = 1
+format = "[{](#ff9505)[$duration](#ffd166)[}](#ff9505)"
+disabled = false
+
+[git_status]
+style = "white"
+ahead = "⇡${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+behind = "⇣${count}"
+deleted = "x"
+disabled = true
+
+[custom.cpu]
+when = "1 == 1"
+format = "[](#006494)[:](#ff9505)[$output](#b0d0d3) "
+shell = ["cat", "/home/wolfy/.cache/cpu_usage"]
+disabled = true
+
+[memory_usage]
+format = "[](#006494)[:](#ff9505)[$ram_pct](#b0d0d3) "
+disabled = true
+threshold = -1
+
+
+[battery]
+disabled = true
+
+[[battery.display]]
+disabled = true
+
+[time]
+disabled = true
+
+[character]
+success_symbol = " [>](#ef476f)[>](#ffd166)[>](#06d6a0)"
+error_symbol = " [×](#ef476f)[×](#ffd166)[×](#06d6a0)"
+#use_symbol_for_status = true
+
+
+# SYMBOLS
+[status]
+symbol = "🔴"
+format = '[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]]($style)'
+map_symbol = true
+disabled = true
+
+[aws]
+symbol = " "
+disabled = true
+
+[conda]
+symbol = " "
+disabled = true
+
+[dart]
+symbol = " "
+disabled = true
+
+[elixir]
+symbol = " "
+disabled = true
+
+[elm]
+symbol = " "
+disabled = true
+
+[git_branch]
+symbol = " "
+disabled = true
+
+[golang]
+symbol = " "
+disabled = true
+
+[hg_branch]
+symbol = " "
+disabled = true
+
+[java]
+symbol = " "
+disabled = true
+
+[julia]
+symbol = " "
+disabled = true
+
+[nim]
+symbol = " "
+disabled = true
+
+[nix_shell]
+symbol = " "
+disabled = true
+
+[nodejs]
+symbol = " "
+disabled = true
+
+[package]
+symbol = " "
+disabled = true
+
+[perl]
+symbol = " "
+disabled = true
+
+[php]
+symbol = " "
+disabled = true
+
+[python]
+symbol = " "
+disabled = true
+
+[ruby]
+symbol = " "
+disabled = true
+
+[rust]
+symbol = " "
+disabled = true
+
+[swift]
+symbol = "ﯣ "
+disabled = true
+
+[jobs]
+disabled = true

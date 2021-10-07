@@ -1,0 +1,14 @@
+My customized keymap, that makes using my 60% keyboard a little easier.
+
+Changes:
+    Inverts [] and {} (as for c coding, {} is used a lot more)
+    Inverts '' and "" (as double quotes are better:D )
+    Changes key (\ and |) to be (/ and \)
+    Changes key (/ and ?) to be (| and ?)
+
+To use (as root):
+    (the file locations may be different) (tested on fedora)
+    mv /usr/share/X11/xkb/symbols/us /usr/share/X11/xkb/symbols/us_old
+    cp us /usr/share/X11/xkb/symbols/us
+
+    (restart)

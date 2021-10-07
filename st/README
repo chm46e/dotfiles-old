@@ -1,0 +1,8 @@
+This .st build has just been yoinked from siduck76.
+Thank you coder, very cool.
+Repo:
+    https://github.com/siduck76/st 
+
+To use:
+    Move .st to ~/.st
+    sudo make clean install

@@ -1,0 +1,9 @@
+As siduck76 had some stuff already that I wanted, I decided to fork it and customize.
+Thank you again coder, very cool.
+Repo:
+    https://github.com/siduck76/chadwm
+
+To use:
+    $$ Move .dwm to ~/.dwm
+    sudo make clean install
+    $$ Create an entry in /usr/share/xsessions/ that executes /home/<user>/.dwm/autostart

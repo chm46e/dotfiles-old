@@ -1,0 +1,13 @@
+#!/bin/sh
+
+killall firefox
+feh --bg-scale ~/.dwm/res/worldmap.jpg &
+xrdb merge ~/.st/xresources &
+setxkbmap us
+setxkbmap -option caps:super
+~/.dwm/src/sh/bars/onedark.sh &
+light -S 30
+numlockx on
+picom &
+
+dwm
